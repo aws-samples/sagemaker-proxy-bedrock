@@ -1,17 +1,39 @@
-## My Project
+# Amazon SageMaker Proxy for Amazon Bedrock
 
-TODO: Fill this README out!
+This project demonstrates how to create a SageMaker-compatible dummy model that delegates inference requests to an Amazon Bedrock model. It provides a bridge between SageMaker's robust hosting capabilities and Bedrock's powerful foundation models.
 
-Be sure to:
+## Files
 
-* Change the title in this README
-* Edit your repository description on GitHub
+- `sagemaker_proxy_bedrock/bedrock_model.py`: Contains the dummy model implementation.
+- `deploy_endpoint.py`: Script to deploy the SageMaker endpoint.
+- `batch_inference.py`: Script to run batch inference using the deployed endpoint.
+- `cleanup.py`: Script to clean up the deployed resources.
+- `test_input.jsonl`: Sample input file for batch inference.
 
-## Security
+## Usage
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+1. Deploy the endpoint:
 
-## License
+   ```
+   python deploy_endpoint.py
+   ```
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+2. Run batch inference:
 
+   ```
+   python batch_inference.py test_input.json
+   ```
+
+3. Clean up resources:
+   ```
+   python cleanup.py
+   ```
+
+## Authors
+
+- Ivan Khvostishkov
+- Abulele Mditshwa
+
+# Note
+
+Amazon Q Developer in this project.

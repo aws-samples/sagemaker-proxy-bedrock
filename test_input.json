@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {
+      "input": [
+        "What countries in Europe have English as the official language?"
+      ]
+    },
+    { "input": ["Is English the official language of Malta?"] },
+    { "input": ["Is English the official language of Ireland?"] },
+    {
+      "input": [
+        "If you can guess from the clues what is inside in the box, I will give you a cookie. It is something to eat. It's round. The color of this thing is orange. What is inside the box?"
+      ]
+    },
+    {
+      "input": [
+        "What is the Answer to the Ultimate Question of Life, the Universe, and Everything?"
+      ]
+    }
+  ]
+}
