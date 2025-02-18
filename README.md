@@ -36,4 +36,4 @@ This project demonstrates how to create a SageMaker-compatible dummy model that 
 
 # Note
 
-Amazon Q Developer in this project.
+Amazon Q Developer was used in this project.
