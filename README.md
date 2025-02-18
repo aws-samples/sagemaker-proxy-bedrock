@@ -8,7 +8,7 @@ This project demonstrates how to create a SageMaker-compatible dummy model that 
 - `deploy_endpoint.py`: Script to deploy the SageMaker endpoint.
 - `batch_inference.py`: Script to run batch inference using the deployed endpoint.
 - `cleanup.py`: Script to clean up the deployed resources.
-- `test_input.jsonl`: Sample input file for batch inference.
+- `test_input.json`: Sample input file for batch inference.
 
 ## Usage
 
