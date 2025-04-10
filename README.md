@@ -21,7 +21,7 @@ This project demonstrates how to create a SageMaker-compatible dummy model that 
 2. Run batch inference:
 
    ```
-   python batch_inference.py test_input.json
+   python batch_inference.py
    ```
 
 3. Clean up resources:
